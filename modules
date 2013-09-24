@@ -1,0 +1,9 @@
+#cloning
+git clone specs/modules
+
+#adding file in the folder
+git add specs/modules/modules_description
+
+git commit
+git push
+
