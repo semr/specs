@@ -56,7 +56,7 @@ N/A
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
 
-**OpenEHR Archetypes (Person)**
+OpenEHR Archetypes (Person)
 
 ``` Archetype
 
