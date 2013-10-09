@@ -39,8 +39,8 @@ _______________________________________________________________
 _______________________________________________________________
 **Reference CDA Template:**
 
-* Section Level Template **"•	Encounters Section (entries optional) (V2)"**
-* Section Level Template **"•	Encounters Section (entries required) (V2)"**
+* Section Level Template **"Encounters Section (entries optional) (V2)"**
+* Section Level Template **"Encounters Section (entries required) (V2)"**
 
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
