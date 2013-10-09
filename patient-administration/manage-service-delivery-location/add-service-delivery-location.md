@@ -50,7 +50,7 @@ AM 01.01, AM 01.02, AM 01.03, AM 01.04, AM 01.05
 _______________________________________________________________
 **Reference Hl7 RMIM (Domain: Patient Administration):**
 
-![prpa_rm202303uv location details](https://f.cloud.github.com/assets/5391320/1295192/c612b858-30a6-11e3-8293-8eda1836623a.png)
+![prpa_rm202301uv location activate](https://f.cloud.github.com/assets/5391320/1295190/b9b5512e-30a6-11e3-919a-38532a33d80f.png)
 _______________________________________________________________
 **Reference FHIR Resource:**
 
