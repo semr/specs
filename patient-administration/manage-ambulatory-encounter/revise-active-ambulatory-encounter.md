@@ -33,7 +33,7 @@ AM 31.02,AM 31.03, AM 31.04, AM 28.01, FN 03.01
 _______________________________________________________________
 **Reference Hl7 RMIM (Domain: Patient Administration):**
 
-![prpa_rm411001uv active amb appointment](https://f.cloud.github.com/assets/5391320/1295285/61f01222-30aa-11e3-80df-a855deea7446.png)
+![prpa_rm401002uv revise](https://f.cloud.github.com/assets/5391320/1295274/06d351ce-30aa-11e3-82fd-1163db6c7cfb.png)
 _______________________________________________________________
 **Reference FHIR Resource:**
 
@@ -41,7 +41,8 @@ _______________________________________________________________
 _______________________________________________________________
 **Reference CDA Template:**
 
-Entry Level Template **"Encounter Plan (V2)"**
+* Section Level Template **"•	Encounters Section (entries optional) (V2)"**
+* Section Level Template **"•	Encounters Section (entries required) (V2)"**
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
 
