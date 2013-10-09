@@ -42,6 +42,7 @@ AM 01.01, AM 01.02, AM 01.03, AM 01.04, AM 01.05
 _______________________________________________________________
 **Reference Hl7 RMIM (Domain: Patient Administration):**
 
+![prpa_rm202306uv query by details](https://f.cloud.github.com/assets/5391320/1295200/0ddde126-30a7-11e3-9856-bb39c787d057.png)
 ![prpa_rm202303uv location details](https://f.cloud.github.com/assets/5391320/1295192/c612b858-30a6-11e3-8293-8eda1836623a.png)
 _______________________________________________________________
 **Reference FHIR Resource:**
@@ -50,7 +51,7 @@ _______________________________________________________________
 _______________________________________________________________
 **Reference CDA Template:**
 
-Entry Level Template **"Service Delivery Location"**
+N/A
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
 
