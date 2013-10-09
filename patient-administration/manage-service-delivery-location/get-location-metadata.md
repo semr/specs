@@ -32,6 +32,31 @@ _______________________________________________________________
 **Reference CCHIT Criteria:**
 
 IP 01.02
+________________________________________________________________________
+**Reference Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
+
+PRPA_ST201301UV02
+_______________________________________________________________
+**Reference CCHIT Criteria:**
+
+AM 01.01, AM 01.02, AM 01.03, AM 01.04, AM 01.05
+
+_______________________________________________________________
+**Reference Hl7 RMIM (Domain: Patient Administration):**
+
+![prpa_rm202303uv location details](https://f.cloud.github.com/assets/5391320/1295192/c612b858-30a6-11e3-8293-8eda1836623a.png)
+_______________________________________________________________
+**Reference FHIR Resource:**
+
+![location fhir resource](https://f.cloud.github.com/assets/5391320/1295189/b51b8674-30a6-11e3-8883-30c0c9cb1534.png)
+_______________________________________________________________
+**Reference CDA Template:**
+
+Entry Level Template **"Service Delivery Location"**
+_______________________________________________________________
+**Reference OpenEHR Archetypes (Version 1.4):**
+
+N/A
 
 
 
