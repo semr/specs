@@ -26,7 +26,7 @@ __________________________________________________________
 
 
 ________________________________________________________________________
-**Reference Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
+**Reference Hl7 V3 Interaction Identifiers (Domain: Personnel Management):**
 
 PRPM_ST404000UV01
 _______________________________________________________________
