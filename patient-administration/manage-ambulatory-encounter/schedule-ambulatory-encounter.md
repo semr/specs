@@ -40,7 +40,8 @@ FN 03.01
 _______________________________________________________________
 **Reference Hl7 RMIM (Domain: Patient Administration):**
 
-![inpatient-encounter-event](https://f.cloud.github.com/assets/5391320/1370109/f2892f7a-3a10-11e3-8685-13b26797a2c5.png)
+![prpa_rm411001uv active amb appointment](https://f.cloud.github.com/assets/5391320/1295285/61f01222-30aa-11e3-80df-a855deea7446.png)
+
 _______________________________________________________________
 **Reference FHIR Resource:**
 
@@ -48,7 +49,7 @@ _______________________________________________________________
 _______________________________________________________________
 **Reference CDA Template:**
 
-N/A
+Entry Level Template **"Encounter Plan (V2)"**
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
 
