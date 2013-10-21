@@ -41,7 +41,7 @@ _______________________________________________________________
 
 AM 08.19
 _______________________________________________________________
-**Reference Hl7 RMIM :** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
+**Reference Hl7 RMIM:** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 N/A
 
@@ -52,11 +52,12 @@ N/A
 _______________________________________________________________
 **Reference CDA Template:** [More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
 
-Document Level Template **"Consultation Note"**
-Document Level Template **"Operative Note"**
-Document Level Template **"Procedure Note"**
-Document Level Template **"Referral Note"**
-Document Level Template **"Progress Note"**
+1.	Document Level Template **"Consultation Note"**
+2.	Document Level Template **"Operative Note"**
+3.	Document Level Template **"Procedure Note"**
+4.	Document Level Template **"Referral Note"**
+5.	Document Level Template **"Progress Note"**
+
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):** [More Details](http://www.openehr.org/ckm/)
 
