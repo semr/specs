@@ -22,11 +22,30 @@ __________________________________________________________
 3. Physician selects an appropriate note.
 4. System removes the note.
   
+
 ________________________________________________________________________
 **Reference Hl7 V3 Interaction Identifiers:**
 
 N/A
 _______________________________________________________________
 **Reference CCHIT Criteria:**
+
+N/A
+_______________________________________________________________
+**Reference Hl7 RMIM:** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
+
+N/A
+
+_______________________________________________________________
+**Reference FHIR Resource:** [More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
+
+N/A
+_______________________________________________________________
+**Reference CDA Template:** [More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
+
+N/A
+
+_______________________________________________________________
+**Reference OpenEHR Archetypes (Version 1.4):** [More Details](http://www.openehr.org/ckm/)
 
 N/A
