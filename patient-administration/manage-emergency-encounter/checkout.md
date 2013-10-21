@@ -37,7 +37,7 @@ _______________________________________________________________
 
 ![encounter fhir resource](https://f.cloud.github.com/assets/5391320/1295268/cb11790e-30a9-11e3-8af5-6e7bb9dfdbda.png)
 _______________________________________________________________
-**Reference CDA Template: ** [More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
+**Reference CDA Template:** [More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
 
 * Document Level Template **"Discharge Summary (V2)"**
 
