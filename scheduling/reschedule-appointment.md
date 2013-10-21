@@ -44,7 +44,7 @@ _______________________________________________________________
 
 AM 28.01
 _______________________________________________________________
-**Reference Hl7 RMIM (Domain: Patient Administration):** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
+**Reference Hl7 RMIM (Domain: Scheduling):** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 ![appointment entity](https://f.cloud.github.com/assets/5391320/1371056/e9cf593e-3a30-11e3-9f10-51d12706bdc8.png)
 _______________________________________________________________
