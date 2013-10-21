@@ -34,4 +34,19 @@ _______________________________________________________________
 **Reference CCHIT Criteria:**
 
 N/A
+_______________________________________________________________
+**Reference Hl7 RMIM (Domain: Personnel Management):** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
+![group-member](https://f.cloud.github.com/assets/5391320/1371564/13864af6-3a3d-11e3-87ba-db77e321ea6a.png)
+_______________________________________________________________
+**Reference FHIR Resource:** [More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
+
+![group fhir resource](https://f.cloud.github.com/assets/5391320/1371207/ba29d552-3a34-11e3-82d7-78c553ef2aae.png)
+_______________________________________________________________
+**Reference CDA Template:** [More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
+
+N/A
+_______________________________________________________________
+**Reference OpenEHR Archetypes (Version 1.4):** [More Details](http://www.openehr.org/ckm/)
+
+N/A
