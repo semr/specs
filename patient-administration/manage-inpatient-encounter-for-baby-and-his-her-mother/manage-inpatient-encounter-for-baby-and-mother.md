@@ -41,3 +41,20 @@ _______________________________________________________________
 **Reference CCHIT Criteria:**
 
 N/A
+_______________________________________________________________
+**Reference Hl7 RMIM (Domain: Patient Administration):**
+
+![prpa_rm402008uv linking inpatient](https://f.cloud.github.com/assets/5391320/1370014/ba2432a0-3a0c-11e3-80de-dda7a69d7b52.png)
+
+_______________________________________________________________
+**Reference FHIR Resource:**
+
+N/A
+_______________________________________________________________
+**Reference CDA Template:**
+
+N/A
+_______________________________________________________________
+**Reference OpenEHR Archetypes (Version 1.4):**
+
+N/A
