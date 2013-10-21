@@ -44,7 +44,7 @@ _______________________________________________________________
 
 AM 27.01, AM 27.02, AM 27.04
 _______________________________________________________________
-**Reference Hl7 RMIM (Domain: Patient Administration):** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
+**Reference Hl7 RMIM (Domain: Domain: Personnel Management):** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 ![prpm_rm301000uv add provider](https://f.cloud.github.com/assets/5391320/1371216/ec6718d6-3a34-11e3-8e43-2e30db85abbd.png)
 
