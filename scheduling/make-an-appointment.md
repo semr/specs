@@ -35,6 +35,8 @@ __________________________________________________________
   * A request for his medical chart is sent to the central medical archive, which will deliver the chart on its regular delivery round prior to the scheduled visit.
   * A request for recent orthopedic x-ray images is sent to the radiology Picture Archival and Communication System (PACS), which will pre-fetch the image files (from optic media) prior to the scheduled visit.
   * The appointment is sent to the patient tracking system to update its schedules.
+ 
+
   
 _______________________________________________________________________________
 **Alternate Flows** 
@@ -66,7 +68,7 @@ _______________________________________________________________
 
 AM 28.01
 _______________________________________________________________
-**Reference Hl7 RMIM (Domain: Patient Administration):** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
+**Reference Hl7 RMIM (Domain: Scheduling):** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 ![prsc_rm010000uv appointment](https://f.cloud.github.com/assets/5391320/1371027/622e46fc-3a30-11e3-851d-31890f24feb6.png)
 
