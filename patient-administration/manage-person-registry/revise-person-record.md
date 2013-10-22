@@ -41,18 +41,22 @@ _______________________________________________________________
 N/A
 _______________________________________________________________
 **Reference Hl7 RMIM (Domain: Patient Administration):**
+[More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 ![prpa_rm101301uv person rim](https://f.cloud.github.com/assets/5391320/1287976/f8d5c644-3002-11e3-9e4d-304595102e26.png)
 _______________________________________________________________
 **Reference FHIR Resource:**
+[More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
 
 ![person-resource](https://f.cloud.github.com/assets/5391320/1287912/c6008002-3001-11e3-851d-075f380b862c.png)
 _______________________________________________________________
 **Reference CDA Template:**
+[More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
 
 N/A
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
+[More Details](http://www.openehr.org/ckm/)
 
 OpenEHR Archetypes (Person)
 
