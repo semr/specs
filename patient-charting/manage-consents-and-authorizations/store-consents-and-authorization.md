@@ -32,7 +32,7 @@ _______________________________________________________________
 AM 15.01, AM 15.02, AM 15.04
 
 _______________________________________________________________
-**Reference Hl7 RMIM (Domain: Patient Administration):** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
+**Reference Hl7 RMIM :** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 ![consent-rim](https://f.cloud.github.com/assets/5391320/1378851/25a79060-3adc-11e3-8af8-4f69369a049d.png)
 
