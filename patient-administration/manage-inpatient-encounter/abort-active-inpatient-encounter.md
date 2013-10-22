@@ -32,18 +32,22 @@ _______________________________________________________________
 N/A
 _______________________________________________________________
 **Reference Hl7 RMIM (Domain: Patient Administration):**
+[More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 ![prpa_rm402004uv abort](https://f.cloud.github.com/assets/5391320/1370012/a953d700-3a0c-11e3-8ce5-f1e87eb73628.png)
 _______________________________________________________________
 **Reference FHIR Resource:**
+[More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
 
 ![encounter fhir resource](https://f.cloud.github.com/assets/5391320/1369999/74cb4914-3a0c-11e3-8d49-1317a89cc65d.png)
 _______________________________________________________________
 **Reference CDA Template:**
+[More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
 
 N/A
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
+[More Details](http://www.openehr.org/ckm/)
 
 OpenEHR Archetype: (Encounter)
 
