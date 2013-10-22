@@ -46,18 +46,22 @@ N/A
 
 _______________________________________________________________
 **Reference Hl7 RMIM (Domain: Patient Administration):**
+[More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 ![identification-doc-hl7-rim](https://f.cloud.github.com/assets/5391320/1288116/88f4e302-3005-11e3-9678-698bcffed122.png)
 _______________________________________________________________
 **Reference FHIR Resource:**
+[More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
 
 ![media-resource](https://f.cloud.github.com/assets/5391320/1288070/a09a5326-3004-11e3-8ddd-c5631815f517.png)
 _______________________________________________________________
 **Reference CDA Template:**
+[More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
 
 N/A
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
+[More Details](http://www.openehr.org/ckm/)
 
 N/A
 
