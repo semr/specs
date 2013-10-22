@@ -36,6 +36,7 @@ __________________________________________________________
   * Revises the location availability information.
   * Generates the revised location’s calendar.
   
+
 _______________________________________________________________________________
 **Alternate Flows** 
 
@@ -49,6 +50,22 @@ ________________________________________________________________________
 N/A
 _______________________________________________________________
 **Reference CCHIT Criteria:**
+
+N/A
+_______________________________________________________________
+**Reference Hl7 RMIM (Domain: Scheduling):** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
+
+N/A
+_______________________________________________________________
+**Reference FHIR Resource:** [More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
+
+Yet to be defined.
+_______________________________________________________________
+**Reference CDA Template:** [More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
+
+N/A
+_______________________________________________________________
+**Reference OpenEHR Archetypes (Version 1.4):** [More Details](http://www.openehr.org/ckm/)
 
 N/A
 
