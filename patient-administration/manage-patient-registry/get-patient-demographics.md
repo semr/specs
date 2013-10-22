@@ -43,18 +43,22 @@ AM 01.01, AM 01.02, AM 01.03, AM 01.04, AM 01.05
 
 _______________________________________________________________
 **Reference Hl7 RMIM (Domain: Patient Administration):**
+[More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 ![prpa_rm201303uv patient demographics](https://f.cloud.github.com/assets/5391320/1288161/55b8e064-3006-11e3-8aa6-8c7d1492d211.png)
 _______________________________________________________________
 **Reference FHIR Resource:**
+[More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
 
 ![patient-resource](https://f.cloud.github.com/assets/5391320/1288157/465d9966-3006-11e3-9caa-d9027430e5d6.png)
 _______________________________________________________________
 **Reference CDA Template:**
+[More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
 
 Participant Template **"recordTarget"**
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
+[More Details](http://www.openehr.org/ckm/)
 
 OpenEHR Archetypes (Patient)
 
