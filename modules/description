@@ -1,0 +1,19 @@
+Introduction
+
+=================================
+
+The proposed architecture is based on Service Oriented Architecture (SOA). The main functionalities and 
+features of the system are provided as services. The adoption of SOA approach makes a base for deploying 
+EMR system as services on cloud servers. The architecture is divided into three layers of services, i.e., 
+Data Services, Business Services and Application Interface Services. The Data layer is responsible for 
+managing the storage and retrieval of medical information, demographics and related metadata. The EMR 
+functionalities, including some supporting features, are provided by the Business layer. The top most 
+Application Interface layer generates messages and reports and provides interfaces for data entry to the 
+system.
+
+
+
+
+
+
+
