@@ -30,3 +30,20 @@ _______________________________________________________________
 **Reference CCHIT Criteria:**
 
 N/A
+_______________________________________________________________
+**Reference Hl7 RMIM :** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
+
+N/A
+
+_______________________________________________________________
+**Reference FHIR Resource:** [More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
+
+![alert fhir resource](https://f.cloud.github.com/assets/5391320/1378793/5980c5d4-3ada-11e3-87e2-d958f8f02fdf.png)
+_______________________________________________________________
+**Reference CDA Template:** [More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
+
+N/A
+_______________________________________________________________
+**Reference OpenEHR Archetypes (Version 1.4):** [More Details](http://www.openehr.org/ckm/)
+
+N/A
