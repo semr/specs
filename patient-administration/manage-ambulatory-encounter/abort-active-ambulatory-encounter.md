@@ -24,6 +24,7 @@ __________________________________________________________
 
 ________________________________________________________________________
 **Reference Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
+[More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 PRPA_ST401004UV02
 _______________________________________________________________
@@ -36,14 +37,17 @@ _______________________________________________________________
 ![prpa_rm401004uv abort](https://f.cloud.github.com/assets/5391320/1295286/6b48acee-30aa-11e3-9cee-d72e757defde.png)
 _______________________________________________________________
 **Reference FHIR Resource:**
+[More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
 
 ![encounter fhir resource](https://f.cloud.github.com/assets/5391320/1295268/cb11790e-30a9-11e3-8af5-6e7bb9dfdbda.png)
 _______________________________________________________________
 **Reference CDA Template:**
+[More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
 
 N/A
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
+[More Details](http://www.openehr.org/ckm/)
 
 OpenEHR Archetype: (Encounter)
 
