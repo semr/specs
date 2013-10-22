@@ -34,20 +34,24 @@ _______________________________________________________________
 AM 31.02,AM 31.03, AM 31.04, AM 28.01
 _______________________________________________________________
 **Reference Hl7 RMIM (Domain: Patient Administration):**
+[More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 ![prpa_rm405001uv active](https://f.cloud.github.com/assets/5391320/1295475/e5d28232-30af-11e3-88c6-e6c6a3b4f5d8.png)
 _______________________________________________________________
 **Reference FHIR Resource:**
+[More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
 
 ![encounter fhir resource](https://f.cloud.github.com/assets/5391320/1295268/cb11790e-30a9-11e3-8af5-6e7bb9dfdbda.png)
 _______________________________________________________________
 **Reference CDA Template:**
+[More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
 
 * Section Level Template **"Encounters Section (entries optional) (V2)"**
 * Section Level Template **"Encounters Section (entries required) (V2)"**
 
 _______________________________________________________________
 **Reference OpenEHR Archetypes (Version 1.4):**
+[More Details](http://www.openehr.org/ckm/)
 
 OpenEHR Archetype: (Encounter)
 
