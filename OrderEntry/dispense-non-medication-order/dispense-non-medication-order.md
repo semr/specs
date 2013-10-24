@@ -45,3 +45,25 @@ _______________________________________________________________
 **Reference CCHIT Criteria:**
 
 IO-IP 01.01, IO-IP 03.05
+
+_______________________________________________________________
+**Reference Hl7 RMIM (Domain: Pharmacy):** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
+
+-NA-
+
+_______________________________________________________________
+**Reference FHIR Resource:** [More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
+
+![image](https://f.cloud.github.com/assets/4283040/1396617/c20448a0-3c6b-11e3-9d53-f0d786509cc2.png)
+
+_______________________________________________________________
+**Reference CDA Template:** [More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
+
+Entry Level Template : **"Non-Medicinal Supply Activity"**
+
+Entry Level Template : **"Non-Medicinal Supply Activity (V2)"**
+
+______________________________________________________________
+**Reference OpenEHR Archetypes (Version 1.4):** [More Details](http://www.openehr.org/ckm/)
+
+-NA-
