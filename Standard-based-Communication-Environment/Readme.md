@@ -18,7 +18,7 @@ The SCE is intended to get clinical documents from the Content Creation System (
 
 |                 |  **Name**     | **Description**        |                        | 
 |-----------------|---------------| -----------------------| -----------------------| 
-| **Content Creation System ** | **Hospital Information System** | A system intended to support patient medical record (EMR) and is operating in hospital vicinity. | All these systems are intended to support the functionality of;	* creating sharable contents * storing the contents to the sharable repository of SCE component |
+| **Content Creation System** | **Hospital Information System** | A system intended to support patient medical record (EMR) and is operating in hospital vicinity. | All these systems are intended to support the functionality of;	* creating sharable contents * storing the contents to the sharable repository of SCE component |
 |  | **Laboratory Information System** | A system intended to support functions of laboratory report (test results) creation.  |
 |  | **Practitioner Office System**| A system intended to support a clinician with basic information of patient health record.|
 |**SCE** | **Communication Interface** | A system component that can receive the information from Content Creation System and send the information to Content Consuming System.| SCE is the information exchange infrastructure with the functions to hold and communicate the sharable contents between Content Creation System and Content Consuming System.| 
@@ -37,7 +37,7 @@ These two actors are further specialized into different actors as shown below:
 
 | **Name**        | **Description**               | **Responsibilities**                                         |      
 |-----------------|-------------------------------|--------------------------------------------------------------|
-|**Content Creator **| Creator of the laboratory documents and messages | An application responsible for the creation of content and transmission to a Content Consumer. This actor issues laboratory reports for sharing purpose.
+| **Content Creator ** | Creator of the laboratory documents and messages | An application responsible for the creation of content and transmission to a Content Consumer. This actor issues laboratory reports for sharing purpose.
 |**SCE Service** | Standard based Communication Service | Responsible for receiving and sending the messages and documents.
 |**Content Consumer** | Consumer of the messages and documents. | An application responsible for viewing, importing, or other processing of content created by a Content Creator Actor. 
 
