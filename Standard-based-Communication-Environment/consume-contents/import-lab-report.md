@@ -60,3 +60,13 @@ _______________________________________________________________
 **FHIR Reference Model: Document Resources**
 
 ![14](https://f.cloud.github.com/assets/5012182/1418603/7a054fda-3fb9-11e3-9b91-a0b37faf616e.PNG)
+_______________________________________________________________
+
+**Reference CDA Template:**
+
+N/A
+_______________________________________________________________
+
+**Reference OpenEHR Archetypes:**
+
+N/A
