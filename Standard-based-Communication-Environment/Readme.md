@@ -3,6 +3,25 @@
 
 As a health information exchange module of SEMR, SCE enables users to electronically exchange healthcare resources, messages and documents at a minimum; the product scopes discuss in this document cover laboratory report sharing. For document sharing, the intended infrastructure will base on direct push method to support exchange among labs, hospital and physician offices. The contents of the report will follow FHIR base document exchange. Furthermore, some of report may be exchanged as HL7 CDA.
 
+2. Module Perspective
+---------------
+
+SCE is component of SEMR that holds the sharable contents. Sharable contents include laboratory reports, discharge summaries and all sort of other clinical documents that are required by different stakeholders to consume for different purpose. The utilization of shared information may be at different times i.e. the Content Creation System generates the sharable information during the stage of patient discharge and saves to the SCE in shared repository. Later at some times, the Content Consuming System utilizes that information by requesting from SCE. 
+
+![5](https://f.cloud.github.com/assets/5012182/1417636/52004180-3f95-11e3-8570-aa52177782e3.PNG)
+
+3. Module Functions 
+-------------------
+The SCE is intended to get clinical documents from the Content Creation System (source system) and store in shared repository. Content Creation System includes systems; hospital information system, laboratory information system and practioner office system. Content Consuming System receives the clinical documents from SCE. Content Consuming System includes systems; care provider and personal health record.
+
+![6](https://f.cloud.github.com/assets/5012182/1417639/853fb5ee-3f95-11e3-9d05-b4f6a3f94f2a.PNG)
+
+|                 |  **Name**     | **Description**        | 
+|-----------------|---------------| -----------------------| 
+|**Content Creation System **| **Hospital Information System** | A system intended to support patient medical record (EMR) and is operating in hospital vicinity. | All these systems are intended to support the functionality of;	* creating sharable contents * storing the contents to the sharable repository of SCE component |
+| | **Laboratory Information System**| A system intended to support functions of laboratory report (test results) creation.  |
+| | **Practitioner Office System**| A system intended to support a clinician with basic information of patient health record.|
+
 2. Governance for sharing clinical document
 ---------------------
 * **Document Format**
@@ -37,6 +56,13 @@ IHE XCA profile provides guidelines and specification for sharing document in fe
 -------------------
 According to the IHE content integration profile, “a laboratory report as an electronic document to be published towards a document sharing resource such as an Electronic Health Record (EHR) or in Personal Health Record (PHR) shared by a community of care providers. Such an electronic document contains the set of releasable results produced by a clinical laboratory or by a public health laboratory in fulfillment of one or more test Orders for a patient. The report is shared in a human-readable format. In addition, this electronic laboratory report SHALL contain test results in a machine-readable format, to facilitate the integration of these observations in the database of a consumer system. The major functionalities of this domain are as follows;
 
+* **Laboratory Report Exchange**
+This is a set of functionality that provides the ability to exchange laboratory report between Content Creation System (source) and Content Consuming System (destination). Content Creation System is a system that generates the laboratory reports and save them in SCE. It can be a hospital, laboratory or practioner office. Content Consuming System is a system that uses the laboratory reports. It can be a Care Provider or PHR.
+ 
+![4](https://f.cloud.github.com/assets/5012182/1417628/e30668cc-3f94-11e3-95a3-22976577082e.PNG)
+
+* **Laboratory Report Contents**
+With perspective of governance of sharing laboratory report, it is necessary to agree upon some common format of the contents of sharable report and align requirements to appropriate use cases. XD-LAB [1-2]  is IHE content integration profile that suggests detail use cases with definition of detail contents of report to be shared among different documents intended applications such as EHR, PHR and other healthcare systems. The intended document contains the set of releasable results produced by a clinical laboratory or by a public health laboratory in fulfillment of one or more test Orders for a patient.
 
 
 3. Module Functions 
