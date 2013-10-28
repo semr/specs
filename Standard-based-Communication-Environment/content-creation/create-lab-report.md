@@ -25,7 +25,7 @@ __________________________________________________________
 4.	System displays the selected lab result reports and provides the user with document sharing methodology options. 
   a.	FHIR Document
   b.	FHIR DocumentReference (CDA, Pdf, FHIR Document)
-__________________________________________________________
+
 **Alternate Flows** 
 
 **Alt-1: Create FHIR Document**
