@@ -29,7 +29,7 @@ __________________________________________________________
   * Authenticate the requesting application as an authorized entity
   * Search for the requested report with feed criteria.
   * Pick the requested lab report and respond to application
-__________________________________________________________
+
 **Alternate Flows** 
 
 
