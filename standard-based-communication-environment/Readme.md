@@ -19,13 +19,13 @@ The SCE is intended to get clinical documents from the Content Creation System (
 |                 |  **Name**     | **Description**        |                        | 
 |-----------------|---------------| -----------------------| -----------------------| 
 | **Content Creation System** | **Hospital Information System** | A system intended to support patient medical record (EMR) and is operating in hospital vicinity. | All these systems are intended to support the functionality of;	Creating sharable contents and storing the contents to the sharable repository of SCE component |
-|  | **Laboratory Information System** | A system intended to support functions of laboratory report (test results) creation.  |
-|  | **Practitioner Office System**| A system intended to support a clinician with basic information of patient health record.|
+| // | **Laboratory Information System** | A system intended to support functions of laboratory report (test results) creation.  |
+| // | **Practitioner Office System**| A system intended to support a clinician with basic information of patient health record.|
 |**SCE** | **Communication Interface** | A system component that can receive the information from Content Creation System and send the information to Content Consuming System.| SCE is the information exchange infrastructure with the functions to hold and communicate the sharable contents between Content Creation System and Content Consuming System.| 
-|| **Share Repository** | A system component intended to hold the sharable contents. | 
+| // | **Share Repository** | A system component intended to hold the sharable contents. | 
 | **Content Consuming System** | **Care Provider Setting** | A system where care providers (physicians) are provided with the access to consume the sharable contents | Content Consuming System covers the systems with the patient information to provide to SCE pulling the sharable contents. | 
-|| **Personal Health Record (PHR)** | A system intended to use by patients themselves with the functionality to use the sharable contents |
-|| **Laboratory Information System** | 	Laboratory Information System	A system intended to support laboratory functions of collecting test order and specimens. |
+| // | **Personal Health Record (PHR)** | A system intended to use by patients themselves with the functionality to use the sharable contents |
+| // | **Laboratory Information System** | 	Laboratory Information System	A system intended to support laboratory functions of collecting test order and specimens. |
 
 4. User Classes and Characteristics 
 -----------------------------------
