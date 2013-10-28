@@ -16,13 +16,32 @@ The SCE is intended to get clinical documents from the Content Creation System (
 
 ![6](https://f.cloud.github.com/assets/5012182/1417639/853fb5ee-3f95-11e3-9d05-b4f6a3f94f2a.PNG)
 
-|                 |  **Name**     | **Description**        | 
-|-----------------|---------------| -----------------------| 
-|**Content Creation System **| **Hospital Information System** | A system intended to support patient medical record (EMR) and is operating in hospital vicinity. | All these systems are intended to support the functionality of;	* creating sharable contents * storing the contents to the sharable repository of SCE component |
-| | **Laboratory Information System**| A system intended to support functions of laboratory report (test results) creation.  |
-| | **Practitioner Office System**| A system intended to support a clinician with basic information of patient health record.|
+|                 |  **Name**     | **Description**        |                        | 
+|-----------------|---------------| -----------------------| -----------------------| 
+| **Content Creation System ** | **Hospital Information System** | A system intended to support patient medical record (EMR) and is operating in hospital vicinity. | All these systems are intended to support the functionality of;	* creating sharable contents * storing the contents to the sharable repository of SCE component |
+|  | **Laboratory Information System** | A system intended to support functions of laboratory report (test results) creation.  |
+|  | **Practitioner Office System**| A system intended to support a clinician with basic information of patient health record.|
+|**SCE** | **Communication Interface** | A system component that can receive the information from Content Creation System and send the information to Content Consuming System.| SCE is the information exchange infrastructure with the functions to hold and communicate the sharable contents between Content Creation System and Content Consuming System.| 
+|| **Share Repository** | A system component intended to hold the sharable contents. | 
+| **Content Consuming System** | **Care Provider Setting** | A system where care providers (physicians) are provided with the access to consume the sharable contents | Content Consuming System covers the systems with the patient information to provide to SCE pulling the sharable contents. | 
+|| **Personal Health Record (PHR)** | A system intended to use by patients themselves with the functionality to use the sharable contents |
+|| **Laboratory Information System** | 	Laboratory Information System	A system intended to support laboratory functions of collecting test order and specimens. |
 
-2. Governance for sharing clinical document
+4. User Classes and Characteristics 
+-----------------------------------
+The main actors involved in this system are Content Creator and Content Consumer that interact with SCE Service actor.  Further Specializations of Content Actor include hospital physician, doctor, clinician and nurse. While specializations of Content Consumer include patient, family doctor of a patient and hospital physician/doctor.
+Content (i.e. a laboratory report) is created by a Content Creator and is to be consumed by a Content Consumer. 
+These two actors are further specialized into different actors as shown below:
+
+![7](https://f.cloud.github.com/assets/5012182/1417797/6adb015a-3f9e-11e3-8f8b-89d9259e3a32.PNG)
+
+| **Name**        | **Description**               | **Responsibilities**                                         |      
+|-----------------|-------------------------------|--------------------------------------------------------------|
+|**Content Creator **| Creator of the laboratory documents and messages | An application responsible for the creation of content and transmission to a Content Consumer. This actor issues laboratory reports for sharing purpose.
+|**SCE Service** | Standard based Communication Service | Responsible for receiving and sending the messages and documents.
+|**Content Consumer** | Consumer of the messages and documents. | An application responsible for viewing, importing, or other processing of content created by a Content Creator Actor. 
+
+6. Governance for sharing clinical document
 ---------------------
 * **Document Format**
 To enable interoperable transfer of document, agreement among communicating parties are needed to approve common format of document. Document can be unstructured such as PDF based patient summaries or more structured format such as CDA (Clinical Document Architecture) or FHIR based Document. The ultimate goal of this agreement is to ensure the receiving party should understand all semantics of the contents exchange.
@@ -33,7 +52,7 @@ It enables to provide agreement on using common coding systems for exchanging st
 * **Coding of Metadata**
 It provides more aspects of the document during exchange. Most of the metadata is exchange as part of document exchange which self-describes the document intent. The metadata covers aspects of document such as identity, security, discovery, provenance, routing, privacy, authenticity and electronic pre-processing. 
 
-3. Document sharing models
+7. Document sharing models
 ---------------------
 * **Direct push**
 Direct push model transfers the contents in form of documents along with associated metadata to intended known recipient. The document can also be delivered via some offline media. From IHE reference profile, IHE XDR and IHE XDM can best describe this model of document exchange.
@@ -52,7 +71,7 @@ IHE XCA profile provides guidelines and specification for sharing document in fe
 
 ![3](https://f.cloud.github.com/assets/5012182/1417586/2a02a72e-3f93-11e3-8557-e50874ae825f.PNG)
 
-3. Laboratory Domain
+8. Laboratory Domain
 -------------------
 According to the IHE content integration profile, “a laboratory report as an electronic document to be published towards a document sharing resource such as an Electronic Health Record (EHR) or in Personal Health Record (PHR) shared by a community of care providers. Such an electronic document contains the set of releasable results produced by a clinical laboratory or by a public health laboratory in fulfillment of one or more test Orders for a patient. The report is shared in a human-readable format. In addition, this electronic laboratory report SHALL contain test results in a machine-readable format, to facilitate the integration of these observations in the database of a consumer system. The major functionalities of this domain are as follows;
 
@@ -64,40 +83,7 @@ This is a set of functionality that provides the ability to exchange laboratory 
 * **Laboratory Report Contents**
 With perspective of governance of sharing laboratory report, it is necessary to agree upon some common format of the contents of sharable report and align requirements to appropriate use cases. XD-LAB [1-2]  is IHE content integration profile that suggests detail use cases with definition of detail contents of report to be shared among different documents intended applications such as EHR, PHR and other healthcare systems. The intended document contains the set of releasable results produced by a clinical laboratory or by a public health laboratory in fulfillment of one or more test Orders for a patient.
 
-
-3. Module Functions 
--------------------
-The SOE is intended to allow look up and management of wide variety of order entry components. This includes the ability to resolve content bound to a specific Concept Domain. At the functional level, SOE will allow the management of medication order, status of the order, dispensing medication order and administering medication order in case of in patient. The scope of this SOE covers support of multiple standards like CCHIT and HL7. Figure shows the level-1 DFD of order entry of medication.
-
-![orderentry-dfd](https://f.cloud.github.com/assets/4283040/1224707/3c9a26ee-2753-11e3-9409-baf16f7de7d6.PNG)
-
-| **Name**        | **Description**               |  
-|-----------------|-------------------------------|
-|**Prescribing System **| A system intended to support a clinician with prescribing authority.|
-|**ePrescribingHub** | The CTS 2 Service is a specific implementation of the CTS 2 Terminology Server.|
-|**Dispensing System** | A system intended to support a clinician with dispensing authority.|
-|**Administration System** | A system intended to support a clinician in the recording or updating of medication administrations.
-|**Drug Knowledge Base** | A system intended to provide information (knowledge) about medications including, but not limited to, monographs and drug-to-drug interactions.
-
-4. User Classes and Characteristics 
------------------------------------
-Actors will use the order entry service for different purposes. These different actors can be generalized into a basic Order Entry User an Actor that is simply an individual, organization, or application that requires access to terminology content for some purpose. Specializations of the Order Entry User actor participate in additional operational specific scenarios. Actors described in this section are not necessarily human actors, but also include organizations and systems. Figure outlines the specializations and composition of the different actors used in this specification. These actors are described below.
-
-![user-categories-of-oes](https://f.cloud.github.com/assets/4283040/1224758/b0393cc4-2754-11e3-81a7-e935d6606d36.PNG)
-
-The following actors take a role in the Scheduling service actors:
-
-| **Name**        | **Description**               | **Responsibilities**                                         |      
-|-----------------|-------------------------------|--------------------------------------------------------------|
-|**Order Entry User **| End User of Service| An order entry User is an actor such as pharmacist, doctor and Nurse. Terminology User activities include, new order, order dispensing, search/query order and order administration. Specializations of the Terminology User actor follow below.
-|**SOE Service** | Order Entry Server| Responsible for delivering the order entry services
-|**Doctor/ Physician/ Clinician** | End User of the Service| The Doctor is an actor responsible for creating new medication order, update medication order and creating prescription of the patient.
-|**Pharmacist** | End User of the Service | The Pharmacist is the actor responsible for receiving the prescription, verification of prescription and dispensing of medications listed in prescription.
-|**Nurse/ patient agent** | End User of the Service| A Nurse/Patient Agent is an actor responsible for administering the medication with specified dosage (in case of inpatient) and updating the data in SEO service.
-|**Surgeon** | End User of the Service | The surgeon is an actor responsible for creating new non-medication order, update non-medication order for the operation purpose.
-
-5. System Features
+9. System Features
 ------------------
-Following are the system features of the STS:
 
-![system-features-oes](https://f.cloud.github.com/assets/4283040/1224826/66d2b1f8-2756-11e3-9cbc-fc70611697d3.png)
+![8](https://f.cloud.github.com/assets/5012182/1417874/4dd2e1a2-3fa0-11e3-819e-1519edc4a79a.PNG)
