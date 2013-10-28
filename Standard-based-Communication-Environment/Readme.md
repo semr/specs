@@ -37,7 +37,7 @@ These two actors are further specialized into different actors as shown below:
 
 | **Name**        | **Description**               | **Responsibilities**                                         |      
 |-----------------|-------------------------------|--------------------------------------------------------------|
-| **Content Creator ** | Creator of the laboratory documents and messages | An application responsible for the creation of content and transmission to a Content Consumer. This actor issues laboratory reports for sharing purpose.
+| **Content Creator** | Creator of the laboratory documents and messages | An application responsible for the creation of content and transmission to a Content Consumer. This actor issues laboratory reports for sharing purpose.
 |**SCE Service** | Standard based Communication Service | Responsible for receiving and sending the messages and documents.
 |**Content Consumer** | Consumer of the messages and documents. | An application responsible for viewing, importing, or other processing of content created by a Content Creator Actor. 
 
