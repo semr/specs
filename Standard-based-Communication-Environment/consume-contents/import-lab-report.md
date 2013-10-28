@@ -40,3 +40,9 @@ _______________________________________________________________
 
 Content Integration Profile: Sharing Laboratory Reports (XD-LAB)
 _______________________________________________________________
+
+**Reference Hl7 V3 Interaction Identifiers (Domain: Pharmacy):**
+
+1. **Reference HL7 RMIM (CDA): Level-1**
+
+![11](https://f.cloud.github.com/assets/5012182/1418557/45d9ef3c-3fb8-11e3-9438-f22327ec5528.png)
