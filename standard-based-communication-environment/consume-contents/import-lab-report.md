@@ -64,8 +64,38 @@ _______________________________________________________________
 
 **Reference CDA Template:**
 
-N/A
+**Content Modules for CDA Header (Level 1)**
+
+* DOCUMENT-LEVEL TEMPLATES **"Participants and Header Relationships(recordTarget)"**
+* DOCUMENT-LEVEL TEMPLATES **"Participants and Header Relationships(intendedRecipient)"** 
+* DOCUMENT-LEVEL TEMPLATES **"Participants and Header Relationships(participant)"** 
+* DOCUMENT-LEVEL TEMPLATES **"Participants and Header Relationships(performer)"** 
+
 _______________________________________________________________
+
+**Content Modules for CDA Sections (Level 2)**
+
+* SECTION-LEVEL TEMPLATES **"Laboratory Speciality Section template"**
+* SECTION-LEVEL TEMPLATES **"Laboratory Report Item Section template "** 
+
+_______________________________________________________________
+
+**Content Modules for CDA Entries  (Level 3)**
+
+* ENTRY-LEVEL TEMPLATES **"Laboratory Data Processing Entry template "**
+* ENTRY-LEVEL TEMPLATES **"Specimen Collection template "** 
+* ENTRY-LEVEL TEMPLATES **"Specimen Received template  "**
+* ENTRY-LEVEL TEMPLATES **"Notification Organizer template"** 
+* ENTRY-LEVEL TEMPLATES **"Notifiable Condition template  "** 
+* ENTRY-LEVEL TEMPLATES **"Case Identifier template"**
+* ENTRY-LEVEL TEMPLATES **"Outbreak Identifier template "** 
+* ENTRY-LEVEL TEMPLATES **"Laboratory Isolate Organizer template"** 
+* ENTRY-LEVEL TEMPLATES **"Laboratory Battery Organizer template"** 
+* ENTRY-LEVEL TEMPLATES **"Laboratory Observation template "**
+* ENTRY-LEVEL TEMPLATES **"Annotation Comment "** 
+
+______________________________________________________________
+
 
 **Reference OpenEHR Archetypes:**
 
