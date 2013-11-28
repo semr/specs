@@ -17,9 +17,9 @@
 __________________________________________________________
 **Main Success Scenario: (Find Candidates)**
 
-1. MRC selects find candidate demographics option.
-2. System asks user to enter filtering criteria like demographic information (last name, sex and approximate birth date).
-3. MRC specifies the filtering criteria.
+1. User selects find candidate option.
+2. System asks user to enter filtering criteria such as demographic information (including last name, address, gender and approximate birth date).
+3. User specifies the values for filtering criteria.
 4. System displays the list of person records.
 
 _______________________________________________________________________________
@@ -27,8 +27,7 @@ _______________________________________________________________________________
 
 **Alt-1:**
 
-1. Invalid date.
-2. No person record exist against the filtering criteria
+1. No person record exist against the filtering criteria
 
 ________________________________________________________________________
 **Reference Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
