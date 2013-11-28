@@ -15,7 +15,7 @@
 
 **Frequency of Occurrence:**   High
 __________________________________________________________
-**Main Success Scenario: (Find Patients)**
+**Main Success Scenario**
 
 1. User selects find patient option.
 2. System asks user to enter filtering criteria such as demographic information (last name, gender, approximate birth date, or contact information).
@@ -23,21 +23,14 @@ __________________________________________________________
 4. System displays the list of patient records OR informs if no record is found
 
 ________________________________________________________________________
-**Reference Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
+**Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
 
 PRPA_ST201305UV02
-_______________________________________________________________
-**Reference CCHIT Criteria:**
+PRPA_ST201301UV02
+
+**CCHIT Criteria:**
 
 AM 02.01, FN 01.01, FN 02.01
-
-________________________________________________________________________
-**Reference Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
-
-PRPA_ST201301UV02
-_______________________________________________________________
-**Reference CCHIT Criteria:**
-
 AM 01.01, AM 01.02, AM 01.03, AM 01.04, AM 01.05
 
 _______________________________________________________________
