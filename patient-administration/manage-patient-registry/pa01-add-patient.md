@@ -46,7 +46,7 @@ _______________________________________________________________
 ![prpa_rm201301uv patient](https://f.cloud.github.com/assets/5391320/1288158/4fa238f6-3006-11e3-9126-8c9c7eec474f.png)
 _______________________________________________________________
 **Reference FHIR Resource:**
-[More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
+[More Details](http://www.hl7.org/implement/standards/fhir/patient.html)
 
 ![patient-resource](https://f.cloud.github.com/assets/5391320/1288157/465d9966-3006-11e3-9caa-d9027430e5d6.png)
 _______________________________________________________________
