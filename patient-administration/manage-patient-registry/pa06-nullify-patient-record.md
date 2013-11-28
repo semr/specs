@@ -1,4 +1,4 @@
-#####Use Case ID: UC-PA05
+#####Use Case ID: UC-PA06
 #####Use Case Name: Nullify Patient Record
 
 **Level:**                     User Level Goal
