@@ -3,7 +3,7 @@
 
 **Level:**                     User Level Goal
 
-**Primary Actors:**            Data Entry Clerk(DEC)
+**Primary Actors:**            Data Entry Clerk (DEC)
 
 **Stakeholders:**              Data Entry Clerk(DEO), Patient , Healthcare Providers
 
@@ -13,61 +13,35 @@
 
 **Post Condition:**            Service Delivery locations will be added successfully.
 
-**Frequency of Occurrence:**   Low(Occasionally)
+**Frequency of Occurrence:**   Low (Occasionally)
 __________________________________________________________
 **Main Success Scenario: (Add Service Delivery Location)**
 
-1. DEC requests the system to add service delivery location.
+1. User requests the system to add service delivery location.
 2. System asks user to specify service delivery location metadata such as name and description.
-3. DEC enters the required information.
+3. User enters the required information.
 4. System validates the enter information, assigns an identifier to the location and stores the record successfully.
 
-_______________________________________________________________________________
-**Alternate Flows** 
-
-**Alt-1:**
-
-1. Invalid information cannot be added.
-
 ________________________________________________________________________
-**Reference Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
+**Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
 
 PRPA_ST202301UV02
 _______________________________________________________________
-**Reference CCHIT Criteria:**
+**CCHIT Criteria:**
 
 IP 01.02
 
 ________________________________________________________________________
-**Reference Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
+**Hl7 V3 Interaction Identifiers (Domain: Patient Administration):**
 
 PRPA_ST201301UV02
 _______________________________________________________________
-**Reference CCHIT Criteria:**
+**CCHIT Criteria:**
 
 AM 01.01, AM 01.02, AM 01.03, AM 01.04, AM 01.05
 
 _______________________________________________________________
-**Reference Hl7 RMIM (Domain: Patient Administration):**
+**Hl7 RMIM (Domain: Patient Administration):**
 [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
 
 ![prpa_rm202301uv location activate](https://f.cloud.github.com/assets/5391320/1295190/b9b5512e-30a6-11e3-919a-38532a33d80f.png)
-_______________________________________________________________
-**Reference FHIR Resource:**
-[More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
-
-![location fhir resource](https://f.cloud.github.com/assets/5391320/1295189/b51b8674-30a6-11e3-8883-30c0c9cb1534.png)
-_______________________________________________________________
-**Reference CDA Template:**
-[More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
-
-Entry Level Template **"Service Delivery Location"**
-_______________________________________________________________
-**Reference OpenEHR Archetypes (Version 1.4):**
-[More Details](http://www.openehr.org/ckm/)
-
-N/A
-
-
-
-
