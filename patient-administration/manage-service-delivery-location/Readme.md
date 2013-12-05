@@ -16,3 +16,15 @@ resolved).
 * REQ-4: Resolve Duplicate Location Records
 * REQ-5: Find Locations
 * REQ-6: Get Location Metadata
+
+####Data Model [FHIR](http://hl7.org/implement/standards/fhir/location.html)
+
+![](https://f.cloud.github.com/assets/5391320/1295189/b51b8674-30a6-11e3-8883-30c0c9cb1534.png)
+
+####Data Model [CDA](http://www.hl7.org/Special/committees/structure/index.cfm)
+
+Entry Level Template **"Service Delivery Location"**
+
+####Data Model [OpenEHR](http://www.openehr.org/ckm/)
+
+N/A
