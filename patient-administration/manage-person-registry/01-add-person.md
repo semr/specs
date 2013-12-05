@@ -17,10 +17,10 @@
 __________________________________________________________
 **Main Success Scenario: (Add Person to Person Registry)**
 
-1. User requests the system to add a new person to the registry.
+1. User requests the system to add a new person to the registry (optionally from patient detail view).
 2. System asks user to enter person’s identifier information (e.g. insurance number) and basic information (including name, date of birth, address and telephone number).
 3. User enters the required information.
-4. System validates the entered information and asks user to describe person’s relationship with a patient.
+4. System validates the entered information and asks user to describe person’s relationship with a patient (optionally invoking [find patient use case](../manage-patient-registry/02-find-patients.md)).
 5. User enters the required fields.
 6. System performs following actions: **a)**Validate the entered information, **b)**Assign a unique identifier to the person, **c)**Successfully add person information to the person registry.
 
