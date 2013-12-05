@@ -17,10 +17,10 @@
 __________________________________________________________
 **Main Success Scenario**
 
-1. Invoke pa-03-get-patient-details use case.
-2. User selects resolve duplicate option.
+1. Invoke [get patient details use case](03-get-patient-details.md).
+2. User selects find duplicate option.
 3. System will show the list of possible duplicate records and will highlight duplicated information.
-4. User will select "resolve duplicate" option for indivual record and will specify the master record.
+4. User will select "resolve duplicate" option for individual record and will specify the master record.
 5. System will resolve the duplicate record.
 6. Step 4 maybe repeated for all duplicate records retrieved in Step 3.
 
