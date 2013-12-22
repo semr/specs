@@ -13,10 +13,6 @@ The system will provide user with the functionality to create and manage patient
 * REQ-6:  Unmerge Billing Accounts
 
 _______________________________________________________________
-**Reference CCHIT Criteria:**
-
-IP 15.12, FN 03.01, IP 01.01, IP 01.02, IP 01.03
-_______________________________________________________________
 **Reference Hl7 RMIM (Domain: Accounts and Billing):**
 [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306) 
 
