@@ -23,7 +23,7 @@ __________________________________________________________
 4.	System creates a patient account that may be used subsequently to collect charges and credits to support financial transactions, including billing specific to this hospital stay.
 
 ________________________________________________________________________
-Reference Hl7 V3 Interaction Identifiers (Domain: Accounting & Billing):
+**Reference Hl7 V3 Interaction Identifiers (Domain: Accounting & Billing):**
 
 FIAB_ST000100UV02
 _______________________________________________________________
