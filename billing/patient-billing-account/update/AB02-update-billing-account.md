@@ -30,6 +30,7 @@ ______________________________________________________________________________
 **Alt-1:** 
 
 1.	Invalid information cannot be entered.
+
 ________________________________________________________________________
 **Reference Hl7 V3 Interaction Identifiers (Domain: Accounting & Billing):**
 
