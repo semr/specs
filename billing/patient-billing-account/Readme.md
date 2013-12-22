@@ -12,3 +12,28 @@ The system will provide user with the functionality to create and manage patient
 * REQ-5:  Merge Billing Accounts   
 * REQ-6:  Unmerge Billing Accounts
 
+_______________________________________________________________
+**Reference CCHIT Criteria:**
+
+IP 15.12, FN 03.01, IP 01.01, IP 01.02, IP 01.03
+_______________________________________________________________
+**Reference Hl7 RMIM (Domain: Accounts and Billing):**
+[More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306) 
+
+![fiab_rm010000uv](https://f.cloud.github.com/assets/5391320/1798109/c14f46d2-6b2b-11e3-883e-fb07792e242d.png)
+
+_______________________________________________________________
+**Reference FHIR Resource:**
+[More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
+
+N/A
+_______________________________________________________________
+**Reference CDA Template:**
+[More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
+
+N/A
+_______________________________________________________________
+**Reference OpenEHR Archetypes (Version 1.4):**
+[More Details](http://www.openehr.org/ckm/)
+
+N/A
