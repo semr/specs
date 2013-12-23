@@ -1,5 +1,5 @@
 #####Use Case ID: UC-PC70
-#####Use Case Name: Print Procedure Details
+#####Use Case Name: Print Procedure Report
 
 **Level:**                     User Level Goal
 
@@ -7,7 +7,7 @@
 
 **Stakeholders:**              Physician, Nurse, Patient , Healthcare Provider
 
-**Purpose:**                   The main intent of this use case is to print the procedure details.
+**Purpose:**                   The main intent of this use case is to print the procedure report.
 
 **Pre Condition:**             User must be identified and authenticated.
 
