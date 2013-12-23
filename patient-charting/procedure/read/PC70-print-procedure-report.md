@@ -17,7 +17,7 @@
 __________________________________________________________
 **Main Success Scenario: (Print Procedure Details)**
 
-1.	User performs the actions in [list procedures usecase](https://github.com/aliraza995/specs/blob/master/patient-charting/procedure/read/PC68-list-procedures.md).
+1.	User performs the actions in [list procedures usecase](PC68-list-procedures.md).
 2.	System displays the list of procedures.
 3.	User selects an appropriate procedure and selects print procedure report option.
 4.	System creates a hardcopy of procedure report.
