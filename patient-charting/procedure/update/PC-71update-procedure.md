@@ -1,5 +1,5 @@
 #####Use Case ID: UC-PC71
-#####Use Case Name: Print Procedure Details
+#####Use Case Name: Update Procedure Details
 
 **Level:**                     User Level Goal
 
@@ -15,7 +15,7 @@
 
 **Frequency of Occurrence:**   High
 __________________________________________________________
-**Main Success Scenario: (Print Procedure Details)**
+**Main Success Scenario: (Update Procedure Details)**
 
 1.	User performs the actions in [list procedures usecase](../read/PC68-list-procedures.md).
 2.	System displays the list of procedures.
