@@ -7,7 +7,7 @@
 
 **Stakeholders:**              Physician, Patient , Healthcare Provider
 
-**Purpose:**                   The main intent of this use case is to display the list of patients.
+**Purpose:**                   The main intent of this use case is to display the list of procedures.
 
 **Pre Condition:**             Physician must be identified and authenticated.
 
