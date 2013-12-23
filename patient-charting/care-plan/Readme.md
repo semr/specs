@@ -3,6 +3,8 @@
 
 A care plan describes the intention of how one or more practitioners intend to deliver care for a particular patient for a period of time, possibly limited to care for a specific condition or set of conditions. They can be as simple as a general practitioner keeping track of when their patient is next due for a tetanus immunization through to a detailed plan for an oncology patient covering diet, chemotherapy, radiation, lab work and counseling with detailed timing relationships, pre-conditions and goals. 
 
+The Developed Application will allow user to maintain and acces health care plans. It will allow user to create new care plan, modify existing plan and accessing existing plans. It will also provide the ability to provide access to standard care plan when requested at the time of the clinical encounter.
+
 ![use-case-model](https://f.cloud.github.com/assets/5391320/1799562/05c6776e-6ba3-11e3-912a-0926dda4a11c.png)
 
 ####Functional Requirements
