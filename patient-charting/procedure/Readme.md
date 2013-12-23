@@ -9,7 +9,6 @@ An activity directed at or performed on an individual with the object of improvi
 * REQ-2: List Procedures
 * REQ-3: Get Procedure Details
 * REQ-4: Update Procedure
-* REQ-5: Find Patients
 * REQ-6: Print Procedure Details
 
 _______________________________________________________________
