@@ -27,7 +27,7 @@ __________________________________________________________
 
 **Alt-1: List Procedures in a Patient Chart**
 
-1.	Physician selects [find patient](https://github.com/aliraza995/specs/blob/master/patient-administration/manage-patient-registry/find-patients.md) option.
+1.	Physician selects [find patients](https://github.com/aliraza995/specs/blob/master/patient-administration/manage-patient-registry/find-patients.md) option.
 2.	System displays the list of patients.
 3.	Physician navigate to an appropriate patient and then selects view patient's chart option.
 4.	System displays the full patient chart.
