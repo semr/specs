@@ -7,7 +7,7 @@
 
 **Stakeholders:**              Physician, Nurse, Patient , Healthcare Provider
 
-**Purpose:**                   The main intent of this use case is to create a care plan for a patient condition
+**Purpose:**                   The main intent of this use case is to create a care plan for a patient condition.
 
 **Pre Condition:**             Physician must be identified and authenticated.
 
