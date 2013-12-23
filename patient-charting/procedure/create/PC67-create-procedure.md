@@ -3,13 +3,13 @@
 
 **Level:**                     User Level Goal
 
-**Primary Actors:**            Clerk
+**Primary Actors:**            Physician
 
-**Stakeholders:**              Clerk, Physician, Patient , Healthcare Provider
+**Stakeholders:**              Physician, Patient , Healthcare Provider
 
 **Purpose:**                   The main intent of this use case is to record procedure event details.
 
-**Pre Condition:**             Clerk must be identified and authenticated.
+**Pre Condition:**             Physician must be identified and authenticated.
 
 **Post Condition:**            Procedure details recorded successfully.
 
