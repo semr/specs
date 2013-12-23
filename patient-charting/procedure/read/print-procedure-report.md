@@ -11,7 +11,7 @@
 
 **Pre Condition:**             User must be identified and authenticated.
 
-**Post Condition:**            Procedure details will be printed successfully.
+**Post Condition:**            Procedure report will be printed successfully.
 
 **Frequency of Occurrence:**   High
 __________________________________________________________
