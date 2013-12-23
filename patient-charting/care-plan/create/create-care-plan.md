@@ -31,4 +31,4 @@ _______________________________________________________________
 **Reference CCHIT Criteria:**
 [More Details](https://www.cchit.org/cchit-certified)
 
-N/A
+AM 17.02
