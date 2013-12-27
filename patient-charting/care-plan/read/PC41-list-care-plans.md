@@ -25,7 +25,7 @@ __________________________________________________________
 __________________________________________________________
 **Alternate Flows:**
 
-**Alt-1: List Procedures in a Patient Chart**
+**Alt-1: List Care Plans in a Patient Chart**
 
 1.	Physician selects [find patients](../../../patient-administration/manage-patient-registry/find-patients.md) option.
 2.	System displays the list of patients.
