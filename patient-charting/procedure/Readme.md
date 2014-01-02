@@ -1,55 +1,22 @@
-#####Use Case ID: UC-PCS42
-#####Use Case Name: Get Procedure Instruction
+####Description
+--------------
+An activity directed at or performed on an individual with the object of improving health, treating disease or injury, or making a diagnosis. Examples are diagnostic procedures, therapeutic procedures, surgical procedures and endoscopic surgery etc. The developed system will provide user with the facility to manage and access procedure details. It will allow user to create procedure, list procedures performed, get procedure details and update existing procedure details. It will also allow user to create hardcopy and electronic report of a procedure performed.
 
-**Level:**                     User Level Goal
+![procedure-uc](https://f.cloud.github.com/assets/5391320/1753581/a93e50a6-663f-11e3-9bee-94dfb1e9e654.png)
 
-**Primary Actors:**            Physician, Nurse
-
-**Stakeholders:**              Physician, Nurse, Patient, Healthcare Provider, Order Filler
-
-**Purpose:**                   The main intent of this use case is to get patient specific test and procedure instruction.
-
-**Pre Condition:**             User must be identified and authenticated. 
-
-**Post Condition:**            Instruction details will be displayed successfully.
-
-**Frequency of Occurrence:**   High
-__________________________________________________________
-**Main Success Scenario: (Get Procedure Instruction)**
-
-1. User requests to get instruction details.
-2. System displays the list of patient specific instructions.
-3. User selects an appropriate instruction.
-4. System displays the details of instruction such as instruction content, effective time, instruction writer, patient and associated order.
-
-_______________________________________________________________________________
-**Alternate Flows** 
-
-**Alt-1:Get Instruction( User : Order Filler )**
-
-1. User requests to get instruction details.
-2. System displays the list of orders.
-3. User selects an appropriate order
-4. System displays the list of instructions associated with that order.
-5. Repeat 3-4 steps of main scenario.
-
-________________________________________________________________________
-**Reference Hl7 V3 Interaction Identifiers:**
-
-N/A
-_______________________________________________________________
-**Reference CCHIT Criteria:**
-
-AM 10.03, AM 10.04, FN 17.01
-_______________________________________________________________
-**Reference Hl7 RMIM:** [More Details](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=306)
-
-N/A
+####Functional Requirements
+* REQ-1: Create Procedure
+* REQ-2: List Procedures
+* REQ-3: Get Procedure Details
+* REQ-4: Update Procedure
+* REQ-6: Print Procedure Details
 
 _______________________________________________________________
-**Reference FHIR Resource:** [More Details](http://www.hl7.org/implement/standards/fhir/resourcelist.html)
+**Reference FHIR Resource:**
+[More Details](http://www.hl7.org/implement/standards/fhir/procedure.html)
 
-![procedure fhir resource](https://f.cloud.github.com/assets/5391320/1378728/cb58d49c-3ad7-11e3-80e9-c0ba143c6262.png)
+![procedure fhir resource](https://f.cloud.github.com/assets/5391320/1753885/64ca91f4-6645-11e3-8727-3c79c03e2329.png)
+
 _______________________________________________________________
 **Reference CDA Template:** [More Details](http://www.hl7.org/Special/committees/structure/index.cfm)
 
