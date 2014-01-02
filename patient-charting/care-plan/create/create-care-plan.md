@@ -15,7 +15,7 @@
 
 **Frequency of Occurrence:**   High
 __________________________________________________________
-**Main Success Scenario: (Create Procedure)**
+**Main Success Scenario: (Create Care Plan)**
 
 1. Physician selects a create care plan option.
 2. System asks user to specify the goals, activities, patient, participants, summary of details and notes.
